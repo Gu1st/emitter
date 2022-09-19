@@ -1,0 +1,48 @@
+{
+  "name": "harexs-emitter",
+  "version": "1.0.0",
+  "description": "a simple event emitter",
+  "module": "./dist/harexs-emitter.esm.js", 
+  "main": "./dist/harexs-emitter.cjs",
+  "browser":"./dist/harexs-emitter.umd.js",
+  "scripts": {
+	"build": "microbundle -i ./src/index.js -o ./dist -f es,cjs,umd"
+  },
+  "author": {
+    "name": "Harexs",
+    "email": "con1y@qq.com",
+    "url": "https://gu1st.cn"
+  },
+  "license": "MIT",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+	"default":"./dist/harexs-emitter.esm.js",
+	"require":"./dist/harexs-emitter.cjs",
+	"/umd":"./dist/harexs-emitter.umd.js"
+  },
+  "source":"src/index.js",
+  "files": [
+    "./dist",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "event",
+    "emitter",
+    "eventemitter",
+    "events",
+    "emit",
+    "on",
+    "once",
+    "off",
+    "listener",
+    "tiny",
+    "addlistener",
+    "addeventlistener",
+    "dispatch",
+    "dispatcher"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
