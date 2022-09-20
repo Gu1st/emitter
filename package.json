@@ -7,7 +7,8 @@
   "browser": "./dist/harexs-emitter.umd.js",
   "scripts": {
     "build": "microbundle -i ./src/index.js -o ./dist -f es,cjs,umd",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "release-it"
   },
   "author": {
     "name": "Harexs",
@@ -44,7 +45,9 @@
     "dispatcher"
   ],
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.0",
     "git-cz": "^4.9.0",
-    "microbundle": "^0.15.1"
+    "microbundle": "^0.15.1",
+    "release-it": "^15.4.2"
   }
 }
