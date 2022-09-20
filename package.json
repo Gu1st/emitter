@@ -2,11 +2,12 @@
   "name": "harexs-emitter",
   "version": "1.0.1",
   "description": "a simple event emitter",
-  "module": "./dist/harexs-emitter.esm.js", 
+  "module": "./dist/harexs-emitter.esm.js",
   "main": "./dist/harexs-emitter.cjs",
-  "browser":"./dist/harexs-emitter.umd.js",
+  "browser": "./dist/harexs-emitter.umd.js",
   "scripts": {
-	"build": "microbundle -i ./src/index.js -o ./dist -f es,cjs,umd"
+    "build": "microbundle -i ./src/index.js -o ./dist -f es,cjs,umd",
+    "commit": "git-cz"
   },
   "author": {
     "name": "Harexs",
@@ -17,11 +18,11 @@
   "type": "module",
   "types": "index.d.ts",
   "exports": {
-	"default":"./dist/harexs-emitter.esm.js",
-	"require":"./dist/harexs-emitter.cjs",
-	"/umd":"./dist/harexs-emitter.umd.js"
+    "default": "./dist/harexs-emitter.esm.js",
+    "require": "./dist/harexs-emitter.cjs",
+    "/umd": "./dist/harexs-emitter.umd.js"
   },
-  "source":"src/index.js",
+  "source": "src/index.js",
   "files": [
     "./dist",
     "index.d.ts"
@@ -43,6 +44,7 @@
     "dispatcher"
   ],
   "devDependencies": {
+    "git-cz": "^4.9.0",
     "microbundle": "^0.15.1"
   }
 }
