@@ -1,5 +1,12 @@
 
 
+# [1.2.0](https://github.com/Gu1st/harexs-emitter/compare/1.1.0...1.2.0) (2022-09-21)
+
+
+### Features
+
+* 🎸 add readme ([7835c2a](https://github.com/Gu1st/harexs-emitter/commit/7835c2a71d0a07b7d524a2bc082ec714ad46e334))
+
 # 1.1.0 (2022-09-20)
 
 
