@@ -1,12 +1,19 @@
 {
   "name": "harexs-emitter",
   "version": "1.2.0",
+  "type": "module",
   "description": "a simple event emitter",
   "module": "./dist/harexs-emitter.esm.js",
-  "main": "./dist/harexs-emitter.cjs",
-  "browser": "./dist/harexs-emitter.umd.js",
+  "main": "./dist/harexs-emitter.js",
+  "umd:main": "dist/harexs-emitter.umd.js",
+  "types": "index.d.ts",
+  "exports": {
+    "default": "./dist/harexs-emitter.esm.js",
+    "require": "./dist/harexs-emitter.js"
+  },
+  "source": "src/index.ts",
   "scripts": {
-    "build": "microbundle -i ./src/index.js -o ./dist -f es,cjs,umd",
+    "build": "microbundle",
     "commit": "git-cz",
     "release": "release-it"
   },
@@ -16,14 +23,6 @@
     "url": "https://gu1st.cn"
   },
   "license": "MIT",
-  "type": "module",
-  "types": "index.d.ts",
-  "exports": {
-    "default": "./dist/harexs-emitter.esm.js",
-    "require": "./dist/harexs-emitter.cjs",
-    "/umd": "./dist/harexs-emitter.umd.js"
-  },
-  "source": "src/index.js",
   "files": [
     "./dist",
     "index.d.ts"
