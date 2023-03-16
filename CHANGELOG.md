@@ -1,5 +1,12 @@
 
 
+# [1.3.0](https://github.com/Gu1st/harexs-emitter/compare/1.2.0...1.3.0) (2023-03-16)
+
+
+### Features
+
+* 🎸 typescript version ([b42cd5f](https://github.com/Gu1st/harexs-emitter/commit/b42cd5ff126718ecb7d146cde1d7e70b2bbaf216))
+
 # [1.2.0](https://github.com/Gu1st/harexs-emitter/compare/1.1.0...1.2.0) (2022-09-21)
 
 
