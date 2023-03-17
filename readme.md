@@ -11,8 +11,10 @@ $ npm install harexs-emitter
 ## Usage
 
 ```js
-// foo.js
-import emitter from 'harexs-emitter';
+
+import harexsEmitter from 'harexs-emitter';
+
+const emitter = harexsEmitter()
 
 emitter.on('harexs',(e)=>console.log(e));
 //or
