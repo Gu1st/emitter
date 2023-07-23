@@ -5,23 +5,22 @@ a simple event emitter
 ## Install
 
 ```
-$ npm install harexs-emitter
+$ npm install @harexs/emitter
 ```
 
 ## Usage
 
 ```js
+import harexsEmitter from "harexs-emitter";
 
-import harexsEmitter from 'harexs-emitter';
+const emitter = harexsEmitter();
 
-const emitter = harexsEmitter()
-
-emitter.on('harexs',(e)=>console.log(e));
+emitter.on("harexs", (e) => console.log(e));
 //or
-emitter.once('harexs'); //remove itself after use emit
+emitter.once("harexs"); //remove itself after use emit
 
-emitter.emit('harexs','whoami');
+emitter.emit("harexs", "whoami");
 
-emitter.off('harexs');
-
+emitter.off("harexs");
+s;
 ```
