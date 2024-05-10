@@ -1,12 +1,12 @@
 {
   "name": "@harexs/emitter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "a simple event emitter",
   "module": "./dist/harexs-emitter.esm.js",
   "main": "./dist/harexs-emitter.js",
   "umd:main": "dist/harexs-emitter.umd.js",
-  "types": "index.d.ts",
+  "types": "./dist/harexs-emitter.d.ts",
   "exports": {
     "default": "./dist/harexs-emitter.esm.js",
     "require": "./dist/harexs-emitter.js"
@@ -27,8 +27,7 @@
   },
   "license": "MIT",
   "files": [
-    "./dist",
-    "index.d.ts"
+    "./dist"
   ],
   "keywords": [
     "event",
