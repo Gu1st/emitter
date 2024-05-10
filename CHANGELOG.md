@@ -1,5 +1,19 @@
 
 
+# [1.1.0](https://github.com/Gu1st/emitter/compare/1.3.0...1.1.0) (2024-05-10)
+
+
+### Bug Fixes
+
+* 🐛 修复npm发包缺失文件问题 ([2057fa3](https://github.com/Gu1st/emitter/commit/2057fa3aa3f8ae0000054145ecfcc1ff1ba20813))
+* 🐛 修改readme中的包名 ([ff028da](https://github.com/Gu1st/emitter/commit/ff028da8d6eddeb3374926c8fa2dbed9d55a9fa5))
+
+
+### Features
+
+* 🎸 改为组织包发布，增加单元测试 ([f7a20fa](https://github.com/Gu1st/emitter/commit/f7a20fa580518ab22372cbb847c2a07ab8ebe5c4))
+* 🎸 change function off rest args ([49ec6b0](https://github.com/Gu1st/emitter/commit/49ec6b08887b92d89ee260cb7f900a098d48282e))
+
 # [1.3.0](https://github.com/Gu1st/harexs-emitter/compare/1.2.0...1.3.0) (2023-03-16)
 
 
