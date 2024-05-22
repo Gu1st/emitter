@@ -6,7 +6,7 @@
   "module": "./dist/harexs-emitter.esm.js",
   "main": "./dist/harexs-emitter.js",
   "umd:main": "dist/harexs-emitter.umd.js",
-  "types": "./dist/harexs-emitter.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     "default": "./dist/harexs-emitter.esm.js",
     "require": "./dist/harexs-emitter.js"
